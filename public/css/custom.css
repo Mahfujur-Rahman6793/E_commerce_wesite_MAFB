@@ -1,0 +1,149 @@
+.form-control {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #bebbbb;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+@media all and (max-width: 768px) {
+  .col-6 {
+    width: 100%;
+  }
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+@media all and (max-width: 768px) {
+  .col-4 {
+    width: 100%;
+  }
+}
+
+.row-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+}
+
+@media all and (max-width: 768px) {
+  .row-line {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 1rem;
+  }
+}
+
+.row {
+  width: 100%;
+}
+
+.btn-fc {
+  padding: 0.5rem;
+  border-radius: 4px;
+  background-color: #e20c8c;
+  border: none;
+  margin-top: 1rem;
+  color: white;
+}
+
+.cl-pink {
+  background-color: #e20c8c;
+  color: white;
+}
+
+.position-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.g-1 {
+  margin-top: 1rem;
+}
+
+table {
+  width: 100%;
+}
+
+thead th, td {
+  padding: 0.3rem;
+  border: 1px solid #bebbbb;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.row-gap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 1rem;
+}
+
+.img-td {
+  width: 100%;
+  height: 100%;
+}
+
+.th-3 {
+  width: 200px;
+  height: 200px;
+}
+
+.btn-sm {
+  border: none;
+  color: white;
+  border-radius: 4px;
+  padding: 0.5rem;
+  height: 35px;
+}
+
+.info {
+  background-color: #26d253;
+}
+
+.d-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ml-1 {
+  margin-left: 0.7rem;
+}
+
+.red {
+  background-color: #b82626;
+}
+/*# sourceMappingURL=custom.css.map */
